@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05335BB1209027D20065D8E5 /* CustomBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05335BAF209027D20065D8E5 /* CustomBorder.swift */; };
+		05335BB2209027D20065D8E5 /* MyCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05335BB0209027D20065D8E5 /* MyCustomView.xib */; };
+		05A4DA2A20758D24002B9724 /* BillParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A4DA2920758D24002B9724 /* BillParser.swift */; };
+		05B8B48D208ED84D00A121F0 /* CompanyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B8B48C208ED84D00A121F0 /* CompanyParser.swift */; };
+		05D4973D2075641D0015F992 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D497392075641D0015F992 /* CameraViewController.swift */; };
+		05D4973E2075641D0015F992 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D4973A2075641D0015F992 /* MainViewController.swift */; };
+		05D4973F2075641D0015F992 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D4973B2075641D0015F992 /* ReviewViewController.swift */; };
+		05D497402075641D0015F992 /* VisionParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D4973C2075641D0015F992 /* VisionParser.swift */; };
+		2679FAC2B120F88353654F91 /* Pods_mockup_SketchBotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3F2C076F60CC5597B808EA /* Pods_mockup_SketchBotTests.framework */; };
+		7D92EC4A2035F9BD00102165 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D92EC492035F9BD00102165 /* AppDelegate.swift */; };
+		7D92EC4F2035F9BD00102165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D92EC4D2035F9BD00102165 /* Main.storyboard */; };
+		7D92EC512035F9BD00102165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D92EC502035F9BD00102165 /* Assets.xcassets */; };
+		7D92EC542035F9BD00102165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D92EC522035F9BD00102165 /* LaunchScreen.storyboard */; };
+		7D92EC5F2035F9BD00102165 /* mockup_SketchBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D92EC5E2035F9BD00102165 /* mockup_SketchBotTests.swift */; };
+		7D92EC6A2035F9BD00102165 /* mockup_SketchBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D92EC692035F9BD00102165 /* mockup_SketchBotUITests.swift */; };
+		87218BDD0A9D614970E72BB3 /* Pods_mockup_SketchBotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6758C2E2A1ACA4377398C0C4 /* Pods_mockup_SketchBotUITests.framework */; };
+		F0CF4F9B6F5DCB4CD8678F24 /* Pods_mockup_SketchBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 697C65E7314926ABFFE1DEB7 /* Pods_mockup_SketchBot.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D92EC5B2035F9BD00102165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D92EC3E2035F9BD00102165 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D92EC452035F9BD00102165;
+			remoteInfo = mockup_SketchBot;
+		};
+		7D92EC662035F9BD00102165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D92EC3E2035F9BD00102165 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D92EC452035F9BD00102165;
+			remoteInfo = mockup_SketchBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05335BAF209027D20065D8E5 /* CustomBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBorder.swift; sourceTree = "<group>"; };
+		05335BB0209027D20065D8E5 /* MyCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCustomView.xib; sourceTree = "<group>"; };
+		05A4DA2920758D24002B9724 /* BillParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillParser.swift; sourceTree = "<group>"; };
+		05B8B48C208ED84D00A121F0 /* CompanyParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyParser.swift; sourceTree = "<group>"; };
+		05D497392075641D0015F992 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		05D4973A2075641D0015F992 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		05D4973B2075641D0015F992 /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		05D4973C2075641D0015F992 /* VisionParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionParser.swift; sourceTree = "<group>"; };
+		1A2D1D261988E9F7B35F10DA /* Pods-mockup_SketchBotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mockup_SketchBotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mockup_SketchBotTests/Pods-mockup_SketchBotTests.release.xcconfig"; sourceTree = "<group>"; };
+		6758C2E2A1ACA4377398C0C4 /* Pods_mockup_SketchBotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mockup_SketchBotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		697C65E7314926ABFFE1DEB7 /* Pods_mockup_SketchBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mockup_SketchBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E4A7D18B97E15C1A1B2B76 /* Pods-mockup_SketchBotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mockup_SketchBotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mockup_SketchBotTests/Pods-mockup_SketchBotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D92EC462035F9BD00102165 /* EnergyBot-Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EnergyBot-Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D92EC492035F9BD00102165 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D92EC4E2035F9BD00102165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D92EC502035F9BD00102165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D92EC532035F9BD00102165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D92EC552035F9BD00102165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D92EC5A2035F9BD00102165 /* mockup_SketchBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mockup_SketchBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D92EC5E2035F9BD00102165 /* mockup_SketchBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mockup_SketchBotTests.swift; sourceTree = "<group>"; };
+		7D92EC602035F9BD00102165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D92EC652035F9BD00102165 /* mockup_SketchBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mockup_SketchBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D92EC692035F9BD00102165 /* mockup_SketchBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mockup_SketchBotUITests.swift; sourceTree = "<group>"; };
+		7D92EC6B2035F9BD00102165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3F2C076F60CC5597B808EA /* Pods_mockup_SketchBotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mockup_SketchBotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD22D3493BD16DA1409EE35B /* Pods-mockup_SketchBotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mockup_SketchBotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mockup_SketchBotUITests/Pods-mockup_SketchBotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2B2535EE133376FD9A3C65F /* Pods-mockup_SketchBotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mockup_SketchBotUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mockup_SketchBotUITests/Pods-mockup_SketchBotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D717AD3586BE7D1382197B83 /* Pods-mockup_SketchBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mockup_SketchBot.release.xcconfig"; path = "Pods/Target Support Files/Pods-mockup_SketchBot/Pods-mockup_SketchBot.release.xcconfig"; sourceTree = "<group>"; };
+		E3AD795CE84B25E1715383C5 /* Pods-mockup_SketchBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mockup_SketchBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mockup_SketchBot/Pods-mockup_SketchBot.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D92EC432035F9BD00102165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CF4F9B6F5DCB4CD8678F24 /* Pods_mockup_SketchBot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D92EC572035F9BD00102165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2679FAC2B120F88353654F91 /* Pods_mockup_SketchBotTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D92EC622035F9BD00102165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87218BDD0A9D614970E72BB3 /* Pods_mockup_SketchBotUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		649402BFB7913E82476DC959 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				697C65E7314926ABFFE1DEB7 /* Pods_mockup_SketchBot.framework */,
+				7E3F2C076F60CC5597B808EA /* Pods_mockup_SketchBotTests.framework */,
+				6758C2E2A1ACA4377398C0C4 /* Pods_mockup_SketchBotUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D92EC3D2035F9BD00102165 = {
+			isa = PBXGroup;
+			children = (
+				7D92EC482035F9BD00102165 /* EnergyBot-Mobile */,
+				7D92EC5D2035F9BD00102165 /* mockup_SketchBotTests */,
+				7D92EC682035F9BD00102165 /* mockup_SketchBotUITests */,
+				7D92EC472035F9BD00102165 /* Products */,
+				ADCBCE60ACCF28860F60B428 /* Pods */,
+				649402BFB7913E82476DC959 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D92EC472035F9BD00102165 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D92EC462035F9BD00102165 /* EnergyBot-Mobile.app */,
+				7D92EC5A2035F9BD00102165 /* mockup_SketchBotTests.xctest */,
+				7D92EC652035F9BD00102165 /* mockup_SketchBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D92EC482035F9BD00102165 /* EnergyBot-Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				05335BAF209027D20065D8E5 /* CustomBorder.swift */,
+				05335BB0209027D20065D8E5 /* MyCustomView.xib */,
+				05D4973A2075641D0015F992 /* MainViewController.swift */,
+				05D4973B2075641D0015F992 /* ReviewViewController.swift */,
+				05D497392075641D0015F992 /* CameraViewController.swift */,
+				05B8B48C208ED84D00A121F0 /* CompanyParser.swift */,
+				05D4973C2075641D0015F992 /* VisionParser.swift */,
+				05A4DA2920758D24002B9724 /* BillParser.swift */,
+				7D92EC492035F9BD00102165 /* AppDelegate.swift */,
+				7D92EC4D2035F9BD00102165 /* Main.storyboard */,
+				7D92EC502035F9BD00102165 /* Assets.xcassets */,
+				7D92EC522035F9BD00102165 /* LaunchScreen.storyboard */,
+				7D92EC552035F9BD00102165 /* Info.plist */,
+			);
+			path = "EnergyBot-Mobile";
+			sourceTree = "<group>";
+		};
+		7D92EC5D2035F9BD00102165 /* mockup_SketchBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D92EC5E2035F9BD00102165 /* mockup_SketchBotTests.swift */,
+				7D92EC602035F9BD00102165 /* Info.plist */,
+			);
+			path = mockup_SketchBotTests;
+			sourceTree = "<group>";
+		};
+		7D92EC682035F9BD00102165 /* mockup_SketchBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D92EC692035F9BD00102165 /* mockup_SketchBotUITests.swift */,
+				7D92EC6B2035F9BD00102165 /* Info.plist */,
+			);
+			path = mockup_SketchBotUITests;
+			sourceTree = "<group>";
+		};
+		ADCBCE60ACCF28860F60B428 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3AD795CE84B25E1715383C5 /* Pods-mockup_SketchBot.debug.xcconfig */,
+				D717AD3586BE7D1382197B83 /* Pods-mockup_SketchBot.release.xcconfig */,
+				69E4A7D18B97E15C1A1B2B76 /* Pods-mockup_SketchBotTests.debug.xcconfig */,
+				1A2D1D261988E9F7B35F10DA /* Pods-mockup_SketchBotTests.release.xcconfig */,
+				AD22D3493BD16DA1409EE35B /* Pods-mockup_SketchBotUITests.debug.xcconfig */,
+				C2B2535EE133376FD9A3C65F /* Pods-mockup_SketchBotUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D92EC452035F9BD00102165 /* EnergyBot-Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D92EC6E2035F9BD00102165 /* Build configuration list for PBXNativeTarget "EnergyBot-Mobile" */;
+			buildPhases = (
+				7DC5F1393D2EF5EF661C1B25 /* [CP] Check Pods Manifest.lock */,
+				7D92EC422035F9BD00102165 /* Sources */,
+				7D92EC432035F9BD00102165 /* Frameworks */,
+				7D92EC442035F9BD00102165 /* Resources */,
+				E9BF2DEEF962297B576C366F /* [CP] Embed Pods Frameworks */,
+				1284BEC910D55C4FC6B20802 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EnergyBot-Mobile";
+			productName = mockup_SketchBot;
+			productReference = 7D92EC462035F9BD00102165 /* EnergyBot-Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D92EC592035F9BD00102165 /* mockup_SketchBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D92EC712035F9BD00102165 /* Build configuration list for PBXNativeTarget "mockup_SketchBotTests" */;
+			buildPhases = (
+				A28671D88EB329ED83107CF6 /* [CP] Check Pods Manifest.lock */,
+				7D92EC562035F9BD00102165 /* Sources */,
+				7D92EC572035F9BD00102165 /* Frameworks */,
+				7D92EC582035F9BD00102165 /* Resources */,
+				892C76018754AE90E56402D4 /* [CP] Embed Pods Frameworks */,
+				80FDCFD0E3690D0A3B212820 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D92EC5C2035F9BD00102165 /* PBXTargetDependency */,
+			);
+			name = mockup_SketchBotTests;
+			productName = mockup_SketchBotTests;
+			productReference = 7D92EC5A2035F9BD00102165 /* mockup_SketchBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D92EC642035F9BD00102165 /* mockup_SketchBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D92EC742035F9BD00102165 /* Build configuration list for PBXNativeTarget "mockup_SketchBotUITests" */;
+			buildPhases = (
+				7D2BEF3B5FF6B01C65521B30 /* [CP] Check Pods Manifest.lock */,
+				7D92EC612035F9BD00102165 /* Sources */,
+				7D92EC622035F9BD00102165 /* Frameworks */,
+				7D92EC632035F9BD00102165 /* Resources */,
+				28FCC2A6BC0A64FEB973B4E1 /* [CP] Embed Pods Frameworks */,
+				1F655DA924B8962CE8D1A53E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D92EC672035F9BD00102165 /* PBXTargetDependency */,
+			);
+			name = mockup_SketchBotUITests;
+			productName = mockup_SketchBotUITests;
+			productReference = 7D92EC652035F9BD00102165 /* mockup_SketchBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D92EC3E2035F9BD00102165 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Gimin Moon";
+				TargetAttributes = {
+					7D92EC452035F9BD00102165 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7D92EC592035F9BD00102165 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7D92EC452035F9BD00102165;
+					};
+					7D92EC642035F9BD00102165 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7D92EC452035F9BD00102165;
+					};
+				};
+			};
+			buildConfigurationList = 7D92EC412035F9BD00102165 /* Build configuration list for PBXProject "EnergyBot-Mobile" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D92EC3D2035F9BD00102165;
+			productRefGroup = 7D92EC472035F9BD00102165 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D92EC452035F9BD00102165 /* EnergyBot-Mobile */,
+				7D92EC592035F9BD00102165 /* mockup_SketchBotTests */,
+				7D92EC642035F9BD00102165 /* mockup_SketchBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D92EC442035F9BD00102165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D92EC542035F9BD00102165 /* LaunchScreen.storyboard in Resources */,
+				05335BB2209027D20065D8E5 /* MyCustomView.xib in Resources */,
+				7D92EC512035F9BD00102165 /* Assets.xcassets in Resources */,
+				7D92EC4F2035F9BD00102165 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D92EC582035F9BD00102165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D92EC632035F9BD00102165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1284BEC910D55C4FC6B20802 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mockup_SketchBot/Pods-mockup_SketchBot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F655DA924B8962CE8D1A53E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mockup_SketchBotUITests/Pods-mockup_SketchBotUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28FCC2A6BC0A64FEB973B4E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mockup_SketchBotUITests/Pods-mockup_SketchBotUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D2BEF3B5FF6B01C65521B30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mockup_SketchBotUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DC5F1393D2EF5EF661C1B25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mockup_SketchBot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80FDCFD0E3690D0A3B212820 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mockup_SketchBotTests/Pods-mockup_SketchBotTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		892C76018754AE90E56402D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mockup_SketchBotTests/Pods-mockup_SketchBotTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A28671D88EB329ED83107CF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mockup_SketchBotTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9BF2DEEF962297B576C366F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mockup_SketchBot/Pods-mockup_SketchBot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mockup_SketchBot/Pods-mockup_SketchBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D92EC422035F9BD00102165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D4973E2075641D0015F992 /* MainViewController.swift in Sources */,
+				05B8B48D208ED84D00A121F0 /* CompanyParser.swift in Sources */,
+				05A4DA2A20758D24002B9724 /* BillParser.swift in Sources */,
+				05D497402075641D0015F992 /* VisionParser.swift in Sources */,
+				05D4973D2075641D0015F992 /* CameraViewController.swift in Sources */,
+				05D4973F2075641D0015F992 /* ReviewViewController.swift in Sources */,
+				05335BB1209027D20065D8E5 /* CustomBorder.swift in Sources */,
+				7D92EC4A2035F9BD00102165 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D92EC562035F9BD00102165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D92EC5F2035F9BD00102165 /* mockup_SketchBotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D92EC612035F9BD00102165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D92EC6A2035F9BD00102165 /* mockup_SketchBotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D92EC5C2035F9BD00102165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D92EC452035F9BD00102165 /* EnergyBot-Mobile */;
+			targetProxy = 7D92EC5B2035F9BD00102165 /* PBXContainerItemProxy */;
+		};
+		7D92EC672035F9BD00102165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D92EC452035F9BD00102165 /* EnergyBot-Mobile */;
+			targetProxy = 7D92EC662035F9BD00102165 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D92EC4D2035F9BD00102165 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D92EC4E2035F9BD00102165 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D92EC522035F9BD00102165 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D92EC532035F9BD00102165 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D92EC6C2035F9BD00102165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D92EC6D2035F9BD00102165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D92EC6F2035F9BD00102165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3AD795CE84B25E1715383C5 /* Pods-mockup_SketchBot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQDBFLM6WF;
+				INFOPLIST_FILE = "EnergyBot-Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "revals-energybot-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D92EC702035F9BD00102165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D717AD3586BE7D1382197B83 /* Pods-mockup_SketchBot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQDBFLM6WF;
+				INFOPLIST_FILE = "EnergyBot-Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "revals-energybot-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D92EC722035F9BD00102165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69E4A7D18B97E15C1A1B2B76 /* Pods-mockup_SketchBotTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R2N2UMFP9;
+				INFOPLIST_FILE = mockup_SketchBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dorpeng.mockup-SketchBotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mockup_SketchBot.app/mockup_SketchBot";
+			};
+			name = Debug;
+		};
+		7D92EC732035F9BD00102165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2D1D261988E9F7B35F10DA /* Pods-mockup_SketchBotTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R2N2UMFP9;
+				INFOPLIST_FILE = mockup_SketchBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dorpeng.mockup-SketchBotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mockup_SketchBot.app/mockup_SketchBot";
+			};
+			name = Release;
+		};
+		7D92EC752035F9BD00102165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD22D3493BD16DA1409EE35B /* Pods-mockup_SketchBotUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R2N2UMFP9;
+				INFOPLIST_FILE = mockup_SketchBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dorpeng.mockup-SketchBotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mockup_SketchBot;
+			};
+			name = Debug;
+		};
+		7D92EC762035F9BD00102165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2B2535EE133376FD9A3C65F /* Pods-mockup_SketchBotUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R2N2UMFP9;
+				INFOPLIST_FILE = mockup_SketchBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dorpeng.mockup-SketchBotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mockup_SketchBot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D92EC412035F9BD00102165 /* Build configuration list for PBXProject "EnergyBot-Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D92EC6C2035F9BD00102165 /* Debug */,
+				7D92EC6D2035F9BD00102165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D92EC6E2035F9BD00102165 /* Build configuration list for PBXNativeTarget "EnergyBot-Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D92EC6F2035F9BD00102165 /* Debug */,
+				7D92EC702035F9BD00102165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D92EC712035F9BD00102165 /* Build configuration list for PBXNativeTarget "mockup_SketchBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D92EC722035F9BD00102165 /* Debug */,
+				7D92EC732035F9BD00102165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D92EC742035F9BD00102165 /* Build configuration list for PBXNativeTarget "mockup_SketchBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D92EC752035F9BD00102165 /* Debug */,
+				7D92EC762035F9BD00102165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D92EC3E2035F9BD00102165 /* Project object */;
+}
